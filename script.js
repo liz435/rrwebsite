@@ -1,4 +1,4 @@
 $(document).ready(function($) {
-  $("#word_split").lettering('words');
+  $(".word_split").lettering('words');
 });
 

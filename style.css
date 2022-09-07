@@ -11,18 +11,26 @@ a:link {
 }
 
 .headline{
+	font-size: 1.5rem;
+	margin: none;
+	text-align: center;
+	-webkit-text-fill-color: #000;
+ 	-webkit-text-stroke-color: #fff;
+}
+
+.hl1{
 	font-size: 3rem;
 	margin: none;
 	text-align: center;
 	-webkit-text-fill-color: #000;
-  	-webkit-text-stroke-width: 0.1rem;
  	-webkit-text-stroke-color: #fff;
 }
 
-.headline:hover{
+.hl1:hover{
 	-webkit-text-fill-color: white;
 	cursor: crosshair;
 }
+
 
 .section1{
 	position: fixed;
@@ -34,15 +42,15 @@ a:link {
 .content{
 	padding-left: 20%;
 	padding-right: 20%;
-
 }
 
-#word_split{
+.word_split{
 	line-height: 4rem;
 	font-size: 2rem;
+	text-align: center;
 }
 
-#word_split span:hover{
+.word_split span:hover{
     font-weight:bold;
     font-size: 3rem;
     color: white;
